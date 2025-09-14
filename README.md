@@ -2,8 +2,11 @@
 
 This repository contains the code of the paper ["Hierarchical Vision-Language Retrieval of Educational Metaverse Content in Agriculture"](https://arxiv.org/abs/2508.13713) accepted at the [ICIAP 2025](https://sites.google.com/view/iciap25) conference.
 
-## Museums
-The collected Museums used in the paper are saved in the [museums.json](https://github.com/aliabdari/Agricultural_Metaverse_Retrieval/blob/main/museums.json) file
+## Museums and Descriptions
+The collected Museums used in the paper are saved in the [museums.json](https://github.com/aliabdari/Agricultural_Metaverse_Retrieval/blob/main/museums.json) file, while their corresponding descriptions are presented in the [descriptions](https://github.com/aliabdari/Agricultural_Metaverse_Retrieval/tree/main/descriptions) directory.
+
+## Configurations
+ All of the experiments have been done using Python 3.10 and PyTorch version 2.5.0+cu124.
 
 ## Feature Generation
 All of the modules regarding generating embeddings using different models are presented at the [feature_generation](https://github.com/aliabdari/Agricultural_Metaverse_Retrieval/tree/main/feature_generation) directory.
